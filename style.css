@@ -1,0 +1,135 @@
+.navbar-container{
+    display: flex;
+    position:relative;
+    padding-left:50px;
+}
+nav > div img{
+    width: 100px;
+    margin-top: 10px;
+}
+.list{
+     display: flex;
+     position: absolute;
+     left:40%;
+}
+.list-item{
+    list-style: none;
+    padding: 15px;
+}
+.list-item:nth-child(1){
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.button-group{
+    display: flex;
+    right: 0;
+    position: absolute;
+    top: 20px;
+    
+}
+.search-icon{
+    position: relative;
+    right:50px;
+}
+.search-icon svg{
+    width:15px;
+    position: relative;
+    top:-5px;
+    right:10px;
+    
+}
+.nav-button{
+    position: relative;
+    right:50px;
+    width: 100px;
+    height:25px;
+    border-radius: 10px;
+}
+.hero-container{
+    
+    position: relative;
+    display: flex;
+}
+.square{
+    position: relative;
+    top:120px;
+    left: 50px; 
+}
+.globe{
+    position: absolute;
+    top:50px;
+    left: 50%;
+}
+.star{
+    position: absolute;
+    left:40%;
+    top:100%;
+}
+.star img{
+    width: 30px;
+}
+.globe + div{
+    position: absolute;
+    top: 8%;
+    left:50px;
+}
+.globe img{
+    width: 40px;
+}
+.globe + div img{
+    height:450px;
+}
+
+.hero-heading{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 70px;
+    font-family: serif;
+}
+.hero-description{
+    text-align: center;
+    width:80%;
+    position: relative;
+    left:10%;
+    top:-10%;
+    font-size: 20px;
+
+}
+.hero-description ~ div{
+    /* border: 1px solid blueviolet; */
+    position: absolute;
+    top: 90%;
+    left: 60%;
+}
+.button-email{
+    width:120px;
+    height:30px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.button-join{
+    width: 120px;
+    background-color: black;
+    color: white;
+    margin-left:10px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+.contact-heading{
+    text-align: center;
+    margin-top:60px;
+    font-size:20px;
+    position: relative;
+    top:50px;
+    left:60px;
+    font-weight: 100;
+}
+.icons >span img{
+    width: 20px;
+    /* border: 1px solid green; */
+    position: relative;
+    top: 30px;
+    left:60px;
+    margin: 0 0 10px 10px;
+}
