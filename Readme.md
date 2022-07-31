@@ -11,7 +11,7 @@ This is my first project in js bootcamp .
 
 ![Screenshot](./thumbnail.png)
 
-[Live-Link](whats-trend-in-2025.netlify.app)
+[Live-Link](https://whats-trend-in-2025.netlify.app/)
 
 
 ![](https://img.shields.io/badge/Instructor-Hitesh--choudhary-yellowgreen)
